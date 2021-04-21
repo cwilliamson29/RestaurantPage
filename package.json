@@ -1,0 +1,24 @@
+{
+    "name": "restaurantpage",
+    "version": "1.0.0",
+    "description": "TOPs restaurant page project",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cwilliamson29/RestaurantPage.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cwilliamson29/RestaurantPage/issues"
+    },
+    "homepage": "https://github.com/cwilliamson29/RestaurantPage#readme",
+    "devDependencies": {
+        "webpack": "^5.35.0",
+        "webpack-cli": "^4.6.0"
+    }
+}
