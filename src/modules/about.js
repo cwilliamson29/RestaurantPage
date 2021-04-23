@@ -32,17 +32,17 @@ function createAbout() {
     about.setAttribute('id', 'about');
 
     const aboutP = document.createElement('p');
-    aboutP.innerHTML = "<img src='img/about-pic.jpg'> Devine Delicacies was founded in 2011 by Karen Shmoozer.Karen is originally from the Ukraine." +
-        "At the age of 16 she was taken into human trafficking.Karen battled with getting away from human trafficingfor many years.Duringher experience she " +
-        "learned to cook mealsfor her captors.Through resilience and persistence she managed to escape from her captor 's and regained her freedom in the united" +
-        "states.Once she arrived in the united states she was able to recieve sponsorshipto attend The Culinary Institute of America in New York.After graduating in " +
-        "2009 she relocated to Atlanta, GA.In the summer of 2011 she opened Devine Delicacies in downtown Atlanta.The restaurant is loved by many of the locals in " +
-        "the area and it is consistant tourist destination.Less than a 10 minute walk from the Atlanta 's many attractions such as the Georgia Aquarium, Phillips " +
-        "Arena, and newly built Falcon's stadium.In 2018 she revised the menu to not only include culinary delicacies from across the world but to also include " +
+    aboutP.innerHTML = "<img src='img/about-pic.jpg'> <h1>About Devine Delicacies</h1>Devine Delicacies was founded in 2011 by Karen Shmoozer. Karen is originally from the Ukraine." +
+        "At the age of 16 she was taken into human trafficking. Karen battled with getting away from human trafficing for many years.During her experience she " +
+        "learned to cook meals for her captors.Through resilience, and persistence, she managed to escape from her captor 's and regained her freedom in the united" +
+        "states. Once she arrived in the united states she was able to recieve sponsorshipto attend The Culinary Institute of America in New York. After graduating in " +
+        "2009 she relocated to Atlanta, GA. <br><br>In the summer of 2011 she opened Devine Delicacies in downtown Atlanta.The restaurant is loved by many of the locals in " +
+        "the area and it is consistant tourist destination. Less than a 10 minute walk from the Atlanta's many attractions such as the Georgia Aquarium, Phillips " +
+        "Arena, and newly built Falcon's stadium. In 2018 she revised the menu to not only include culinary delicacies from across the world but to also include " +
         "some of the Atlanta locals favorites.This menu contains many dishes but some of the more popular are the 'Atlanta honey roasted Falcon' which is a slow " +
         "roasted quail with honey glaze, and the 'Atlanta Piggy's on Le Run ' which is a pork blood sausage with our homemade BBW sauce. Our most popular desert " +
-        "is our 'Pop De La Copp ' which is a black cake covered in blue fondant icing with a red cream cheese icing between its 3 layers. The cake is sprinkled " +
-        "with red and gold candy flakes before it is served. "
+        "is our 'Pop De La Copp ' which is a black velvet cake covered in blue fondant icing with a red cream cheese icing between its 3 layers. The cake is sprinkled " +
+        "with red and gold candy flakes before it is served."
         /*
             const aboutP1 = document.createElement('p');
             aboutP1.innerText = "Once she arrived in the united states she was able to recieve sponsorship to attend The Culinary Institute of America in New York. After graduating in 2009 she relocated to Atlanta, GA. In the summer of 2011 she opened Devine Delicacies in downtown Atlanta. The restaurant is loved by many of the locals int he area and it is consistant tourist destination. Less than a 10 minute walk from the Atlanta's many attractions such as the Georgia Aquarium, Phillips Arena, and newly built Falcon's stadium."

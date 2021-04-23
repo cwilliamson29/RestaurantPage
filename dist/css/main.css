@@ -113,6 +113,13 @@ body {
     width: 85%;
 }
 
+#but-content {
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 #footer {
     padding-top: 40px;
     margin-top: 40px;
@@ -131,21 +138,26 @@ body {
 }
 
 #about {
+    margin: 0;
+    padding: 0;
     width: 100%;
-    background-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#about h1 {
+    font-size: 18pt;
 }
 
 #about P {
-    text-align: center;
     width: 60%;
+    margin: auto;
     padding-top: 5%;
-    padding-left: 10%;
     color: white;
     line-height: 1.8em;
 }
 
 #about img {
-    width: 30%;
+    width: 40%;
     float: right;
     margin-top: 5%;
     margin-right: 10%;
