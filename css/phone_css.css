@@ -1,0 +1,218 @@
+@media only screen and (max-width: 500px) {
+    #content {
+        display: block;
+        width: 100%;
+        min-height: 100%;
+        margin: auto;
+        margin-top: 0;
+        background-color: rgb(0, 24, 75);
+        box-shadow: 0 0 100px 40px, 0 0 10000px 0px inset;
+    }
+    #header {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        font-size: 39pt;
+        font-family: 'sacramento';
+        color: white;
+    }
+    #navBar {
+        width: 100%;
+        background-color: black;
+        text-align: center;
+        height: 75px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-right: 15px;
+    }
+    #navBar button {
+        margin: 0;
+        color: white;
+        font-weight: bold;
+        width: 24%;
+        height: 100%;
+        border: 3px solid rgb(0, 49, 65);
+        font-size: 10pt;
+    }
+    .inActive {
+        background-color: black;
+        color: white;
+    }
+    .active {
+        background-color: rgb(0, 49, 65);
+        color: black;
+    }
+    #reserve {
+        margin-top: 10px;
+        color: white;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18pt;
+    }
+    #reserveBtn {
+        height: 35px;
+        width: 125px;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: red;
+        color: black;
+    }
+    #home {
+        margin: auto;
+        width: 85%;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+    #home img {
+        width: 95%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        box-shadow: 0 0 50px 10px black;
+    }
+    #home p {
+        margin: auto;
+        margin-bottom: 20px;
+        width: 90%;
+        font-size: 14pt;
+    }
+    #homeDesc h1 {
+        font-size: 16pt;
+        padding-bottom: 20px;
+    }
+    #but-content {
+        min-height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #footer {
+        padding-top: 40px;
+        margin-top: 40px;
+        color: white;
+        background-color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        font-size: 8pt;
+    }
+    #footer p {
+        margin: auto;
+        padding-top: 10px;
+        width: 95%;
+    }
+    #about {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #about h1 {
+        font-size: 18pt;
+    }
+    #about P {
+        width: 90%;
+        margin: auto;
+        padding-top: 5%;
+        color: white;
+        line-height: 1.8em;
+    }
+    #about img {
+        width: 80%;
+        float: right;
+        margin-top: 5%;
+        margin-right: 10%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        box-shadow: 0 0 50px 10px black;
+    }
+    #menuCont {
+        width: 95%;
+        padding-top: 5%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #menuItem {
+        width: 42%;
+        border: 10px solid rgb(0, 49, 65);
+        box-shadow: 0 0 50px 10px black;
+        background-color: rgb(0, 49, 65);
+        margin-bottom: 7%;
+    }
+    #menuItem img {
+        width: 100%;
+    }
+    #itemName {
+        text-align: center;
+        font-family: 'sacramento';
+        font-size: calc(14px + (50 - 14) * ((100vw - 300px) / (1600 - 300)));
+        padding-bottom: 10px;
+        color: white
+    }
+    #itemPrice {
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15pt;
+        font-weight: bold;
+        text-align: end;
+    }
+    #contactCont {
+        margin: auto;
+        width: 90%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #contSide {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    #mapBox {
+        height: 300px;
+        width: 98%;
+    }
+    #address {
+        margin: auto;
+        width: 80%;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+        font-weight: bold;
+        padding-bottom: 3%;
+    }
+    #hours {
+        margin: auto;
+        width: 80%;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+        font-weight: bold;
+        padding-bottom: 3%;
+    }
+    #phone {
+        margin: auto;
+        width: 80%;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+        font-weight: bold;
+        padding-bottom: 3%;
+    }
+    #email {
+        margin: auto;
+        width: 80%;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+        font-weight: bold;
+        padding-bottom: 3%;
+    }
+}
