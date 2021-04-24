@@ -34,6 +34,9 @@
         border: 3px solid rgb(0, 49, 65);
         font-size: 10pt;
     }
+    #aboutBtn {
+        font-size: 8pt;
+    }
     .inActive {
         background-color: black;
         color: white;
